@@ -14,7 +14,15 @@ const Home = () => {
 
     return (
 
-        <div>
+        <div className='homePageTeam'
+        //  style={{ 
+        //     display: 'grid',
+        //     gridTemplateColumns: 'repeat(3, 1fr)',
+        //     gridGap: '30px',
+        //     border: '1px solid lightgray',
+        //     }}
+            
+            >
             
             {
                 teams.map(tm=><Team
