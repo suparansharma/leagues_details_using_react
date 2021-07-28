@@ -1,12 +1,19 @@
 import React from 'react';
-import {CardGroup} from 'react-bootstrap';
 import {Card} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
 import './Team.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowSquareRight} from '@fortawesome/free-solid-svg-icons'
+import { useHistory } from 'react-router-dom';
 const Team = (props) => {
   const {idLeague,strLeague,strSport,strLeagueAlternate,strBadge}=props.team;
+  const history = useHistory();
 
+const showDetails = idLeague =>{
 
+    const url = `post/${idLeague}`;
+    history.push(url);
+}
    
     return (
 
@@ -21,7 +28,7 @@ const Team = (props) => {
     <Card.Title>{strLeague}</Card.Title>
     
     <Card.Text>{strLeagueAlternate}</Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+    <Button onClick={()=>showDetails(idLeague)} variant="primary"> Go somewhere</Button>
   </Card.Body>
 </Card>
 </div>

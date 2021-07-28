@@ -15,8 +15,8 @@ const Home = () => {
     return (
 
       <div className="main">
- <div className="homePageImage" style={{height:'400px'}} >
-                <img className="card-img-top" src="https://www.thesportsdb.com/images/media/team/stadium/w1anwa1588432105.jpg" alt="" />
+ <div className="homePageImage"  >
+                <img className="card-img-top" style={{height:'400px'}} src="https://www.thesportsdb.com/images/media/team/stadium/w1anwa1588432105.jpg" alt="" />
                 <h1 className="text-image">All Star League</h1>
             </div>
 
