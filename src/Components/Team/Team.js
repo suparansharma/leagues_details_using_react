@@ -15,7 +15,7 @@ const Team = (props) => {
         
         <div className='homePageTeam'>
 
-<Card style={{ width: '20rem' }}>
+<Card style={{ width: '20rem',height:'30rem' }}>
   <Card.Img variant="top" src={strBadge} />
   <Card.Body>
     <Card.Title>{strLeague}</Card.Title>
