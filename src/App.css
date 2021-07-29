@@ -1,6 +1,20 @@
 .App {
   text-align: center;
+ 
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    background-color: black;
+    
+
 }
+.text-image{
+  text-align: center;
+ 
+}
+
+
 
 .App-logo {
   height: 40vmin;
