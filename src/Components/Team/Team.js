@@ -13,7 +13,10 @@ const showDetails = idLeague =>{
 
     const url = `post/${idLeague}`;
     history.push(url);
+
 }
+
+
    
     return (
 
