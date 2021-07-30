@@ -3,6 +3,6 @@
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     gap: 5px;
-    background-color: black;
+    
     
 }
